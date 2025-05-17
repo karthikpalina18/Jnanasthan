@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "type": "module",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.3.4",
+    "homepage": "https://github.com/karthikpalina18/Jnanasthan-trail"
+
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@livekit/components-react": "^2.9.3",
+    "@livekit/components-styles": "^1.1.5",
+    "@tailwindcss/postcss": "^4.1.5",
+    "@zegocloud/zego-uikit-prebuilt": "^2.14.3-beta",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "lucide-react": "^0.507.0",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.3",
+    "recharts": "^2.15.3",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.1.5"
+  }
+}
