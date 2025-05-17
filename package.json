@@ -15,7 +15,6 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
