@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { BookOpen, Video, FileText, ChevronRight, Award, Calendar, Clock, User } from 'lucide-react';
-import API from '../api';
+import API from '../api'.jsx';
 import '../index.css';
 
 const CourseDetails = () => {

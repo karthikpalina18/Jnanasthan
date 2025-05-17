@@ -1,8 +1,8 @@
 // src/pages/JoinPage.js
 import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ChatContext from '../context/ChatContext';
-import { FaComment, FaUserAlt, FaKey } from 'react-icons/fa';
+import ChatContext from '../context/ChatContext'.jsx';
+import { FaComment, FaUserAlt, FaKey } from 'react-icons/fa'.jsx';
 
 const JoinPage = () => {
   const [name, setName] = useState('');

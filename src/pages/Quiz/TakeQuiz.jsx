@@ -1,7 +1,7 @@
 // import React, { useState, useEffect } from 'react';
 // import { useParams, useNavigate } from 'react-router-dom';
 // import axios from 'axios';
-// import QuizTimer from '../../components/Quiz/QuizTimer';
+// import QuizTimer from '../../components/Quiz/QuizTimer'.jsx';
 
 // const TakeQuiz = () => {
 //   const { id } = useParams();
