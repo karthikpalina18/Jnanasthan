@@ -1,38 +1,38 @@
 
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import Dashboard from './pages/Dashboard';
-import Compiler from './pages/Compiler';
-import JoinRoom from './pages/JoinRoom';
-import Room from './pages/Room';
-import JoinPage from './pages/JoinPage';
-import ChatRoom from './pages/ChatRoom';
-import Profile from './pages/Profile';
-import ProfileForm from './pages/ProfileForm';
-import ProfilePage from './pages/ProfilePage';
-import Connections from './pages/Connections';
-import Notifications from './pages/Notifications';
-import Messages from './pages/Messages';
-import Connect from './pages/Connect';
+import Home from './pages/Home.jsx';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Compiler from './pages/Compiler.jsx';
+import JoinRoom from './pages/JoinRoom.jsx';
+import Room from './pages/Room.jsx';
+import JoinPage from './pages/JoinPage.jsx';
+import ChatRoom from './pages/ChatRoom.jsx';
+import Profile from './pages/Profile.jsx';
+import ProfileForm from './pages/ProfileForm.jsx';
+import ProfilePage from './pages/ProfilePage.jsx';
+import Connections from './pages/Connections.jsx';
+import Notifications from './pages/Notifications.jsx';
+import Messages from './pages/Messages.jsx';
+import Connect from './pages/Connect.jsx';
 
-import CourseList from './components/CourseList';
-import CourseDetail from './components/CourseDetail';
-import StudyMaterial from './components/StudyMaterial';
-import OpportunitiesList from './components/OpportunitesList';
-import UploadOpportunity from './components/UploadOpportunity';
+import CourseList from './components/CourseList.jsx';
+import CourseDetail from './components/CourseDetail.jsx';
+import StudyMaterial from './components/StudyMaterial.jsx';
+import OpportunitiesList from './components/OpportunitesList.jsx';
+import UploadOpportunity from './components/UploadOpportunity.jsx';
 // Import quiz components
-import QuizList from './components/Quiz/QuizList';
-import TakeQuiz from './components/Quiz/TakeQuiz';
-import QuizResult from './components/Quiz/QuizResult';
-import AdminPanel from './components/Admin/AdminPanel';
-import AdminQuizList from './components/Admin/AdminQuizList';
-import CreateQuiz from './components/Admin/CreateQuiz';
-import EditQuiz from './components/Admin/EditQuiz';
-import PrivateRoute from './components/routing/PrivateRoute';
-import AdminRoute from './components/routing/AdminRoute';
+import QuizList from './components/Quiz/QuizList.jsx';
+import TakeQuiz from './components/Quiz/TakeQuiz.jsx';
+import QuizResult from './components/Quiz/QuizResult.jsx';
+import AdminPanel from './components/Admin/AdminPanel.jsx';
+import AdminQuizList from './components/Admin/AdminQuizList.jsx';
+import CreateQuiz from './components/Admin/CreateQuiz.jsx';
+import EditQuiz from './components/Admin/EditQuiz.jsx';
+import PrivateRoute from './components/routing/PrivateRoute.jsx';
+import AdminRoute from './components/routing/AdminRoute.jsx';
 
 
 const App = () => {

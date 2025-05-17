@@ -1,6 +1,6 @@
 // import React, { useContext } from 'react';
 // import { Navigate, Outlet, useLocation } from 'react-router-dom';
-// import { AuthContext } from '../../context/AuthContext'.jsx';
+// import { AuthContext } from '../../context/AuthContext;
 
 // /**
 //  * PrivateRoute component that restricts access to authenticated users only

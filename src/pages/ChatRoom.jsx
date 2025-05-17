@@ -1,8 +1,8 @@
 // src/pages/ChatRoom.js
 import React, { useState, useContext, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import ChatContext from '../context/ChatContext'.jsx';
-import { FaArrowLeft, FaPaperPlane, FaUserCircle } from 'react-icons/fa'.jsx';
+import ChatContext from '../context/ChatContext';
+import { FaArrowLeft, FaPaperPlane, FaUserCircle } from 'react-icons/fa';
 
 const ChatRoom = () => {
   const { roomId } = useParams();
